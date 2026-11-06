@@ -14,7 +14,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #17191d;
-    color: #ffffff;
+    color: white;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -34,36 +34,32 @@ header {
 .logo {
     width: 200px;
     object-fit: contain;
-    border-radius: 2vh;
+    border-radius: 10px;
 }
 
 header h1 {
     font-size: 38px;
     color: #e89b32;
     text-transform: uppercase;
-    letter-spacing: 3px;
 }
-
 
 nav ul {
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 30px;
     list-style: none;
 }
 
 .nav-bar-link {
     text-decoration: none;
-    color: #ffffff;
+    color: white;
     font-size: 18px;
     font-weight: bold;
-    transition: 0.3s;
 }
 
 .nav-bar-link:hover {
     color: #e89b32;
 }
-
 
 main {
     width: 90%;
@@ -84,7 +80,6 @@ main {
     font-size: 32px;
     color: #e89b32;
     text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 .recherche {
@@ -101,12 +96,7 @@ main {
     border-radius: 6px 0 0 6px;
     background-color: #292d34;
     color: white;
-    outline: none;
     font-size: 16px;
-}
-
-.search:focus {
-    border-color: #e89b32;
 }
 
 .recherche input[type="submit"] {
@@ -114,16 +104,14 @@ main {
     border: none;
     background-color: #e89b32;
     color: #17191d;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
     border-radius: 0 6px 6px 0;
-    transition: 0.3s;
 }
 
 .recherche input[type="submit"]:hover {
     background-color: #ffb84d;
 }
-
 
 #categorie {
     width: 250px;
@@ -133,14 +121,7 @@ main {
     border: 1px solid #444950;
     border-radius: 6px;
     font-size: 15px;
-    cursor: pointer;
-    outline: none;
 }
-
-#categorie:focus {
-    border-color: #e89b32;
-}
-
 
 .etiquette {
     display: grid;
@@ -148,57 +129,41 @@ main {
     gap: 25px;
 }
 
-
 .section-div {
     background-color: #22262c;
     border: 1px solid #353a42;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
-    transition: 0.3s;
-    overflow: hidden;
 }
 
 .section-div:hover {
-    transform: translateY(-7px);
     border-color: #e89b32;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
 }
-
 
 .affiche {
     width: 100%;
     height: 150px;
     object-fit: contain;
     padding: 10px;
-    transition: 0.3s;
 }
-
-.section-div:hover .affiche {
-    transform: scale(1.08);
-}
-
 
 .section-div h3 {
-    color: #ffffff;
+    color: white;
     font-size: 21px;
     margin: 15px 0 10px;
 }
-
 
 .categorie {
     display: inline-block;
     background-color: #e89b32;
     color: #17191d;
     padding: 6px 12px;
-    border-radius: 20px;
+    border-radius: 15px;
     font-size: 12px;
     font-weight: bold;
-    text-transform: uppercase;
     margin-bottom: 12px;
 }
-
-
 
 .description {
     color: #b5bac2;
@@ -207,11 +172,70 @@ main {
     margin-top: 8px;
 }
 
-
 .section-div a {
     text-decoration: none;
 }
 
+.details {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    flex: 1;
+}
+
+.main-div {
+    background-color: #22262c;
+    
+    border-radius: 10px;
+    padding: 30px;
+
+    border: 1px solid #353a42;
+}
+
+.detail-title {
+
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #353a42;
+    color: #e89b32;
+}
+
+.detail-poster {
+    display: flex;
+    
+    align-items: center;
+    gap: 40px;
+}
+
+.affiche-details {
+    width: 50%;
+    height: 300px;
+    object-fit: contain;
+    background-color: #17191d;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.detail-poster section {
+    flex: 1;
+}
+
+.detail-description {
+    color: #b5bac2;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.detail-description:first-child {
+    color: #e89b32;
+    font-weight: bold;
+    background-color: #292d34;
+    padding: 12px;
+    border-radius: 5px;
+}
 
 footer {
     width: 100%;
@@ -223,6 +247,7 @@ footer {
     line-height: 1.8;
     margin-top: auto;
 }
+
 @media screen and (max-width: 900px) {
 
     header {
@@ -239,6 +264,14 @@ footer {
         gap: 20px;
     }
 
+    .detail-poster {
+        flex-direction: column;
+    }
+
+    .affiche-details {
+        width: 100%;
+        height: 250px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -261,4 +294,20 @@ footer {
         width: 94%;
     }
 
+    .details {
+        width: 94%;
+        margin: 20px auto;
+    }
+
+    .main-div {
+        padding: 20px;
+    }
+
+    .detail-title {
+        font-size: 24px;
+    }
+
+    .detail-description {
+        font-size: 15px;
+    }
 }
