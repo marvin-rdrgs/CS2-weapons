@@ -1,4 +1,3 @@
-
 <?php
 /*
 --------------------------------------------------------------------------------
@@ -44,8 +43,7 @@ $weapon = $data["weapon"];
         <div class="barre-recherche">
 
             <div class="recherche">
-                <input class="search" type="text" id="search"
-                    placeholder="Rechercher une arme...">
+                <input class="search" type="text" id="search" placeholder="Rechercher une arme...">
                 <input type="submit" value="⌕" id="searchBtn">
             </div>
 
@@ -65,16 +63,13 @@ $weapon = $data["weapon"];
 
         <section class="etiquette">
 
-            <?php foreach($weapon as $w): ?>
+            <?php foreach ($weapon as $w): ?>
 
-                <div class="section-div arme"
-                    data-nom="<?= strtolower($w["nom"]) ?>"
+                <div class="section-div arme" data-nom="<?= strtolower($w["nom"]) ?>"
                     data-categorie="<?= $w["categorie"] ?>">
 
-                    <a href="arme-detail.php?id=<?= $w["id"] ?>">
-                        <img
-                            src="<?= htmlspecialchars($w["img"]) ?>"
-                            class="affiche"
+                    <a href="armedescription.php?id=<?= $w["id"] ?>">
+                        <img src="<?= htmlspecialchars($w["img"]) ?>" class="affiche"
                             alt="<?= htmlspecialchars($w["nom"]) ?>">
                     </a>
 
@@ -102,13 +97,12 @@ $weapon = $data["weapon"];
         &copy; CFPT informatique
     </footer>
 
-    <script>
+    <script>/*Ce script sert à filtrer les armes*/
         const recherche = document.getElementById("search");
         const categorie = document.getElementById("categorie");
         const armes = document.querySelectorAll(".arme");
 
         function filtrerArmes() {
-
             const texte = recherche.value.toLowerCase();
             const filtre = categorie.value;
 
@@ -118,8 +112,7 @@ $weapon = $data["weapon"];
                 const cat = arme.dataset.categorie;
 
                 const correspondNom = nom.includes(texte);
-                const correspondCategorie =
-                    filtre === "toutes" || cat === filtre;
+                const correspondCategorie = filtre === "toutes" || cat === filtre;
 
                 if (correspondNom && correspondCategorie) {
                     arme.style.display = "";
@@ -135,4 +128,5 @@ $weapon = $data["weapon"];
     </script>
 
 </body>
+
 </html>
