@@ -19,7 +19,7 @@
       "nom": "M4A1-S",
       "categorie": "fusil",
       "description": "Fusil d'assaut des antiterroristes équipé d'un silencieux. Il se distingue par son faible bruit et son contrôle.",
-      "img": "img/weapon/m4a1-s.webp"
+      "img": "img/weapon/m4a1-1.webp"
     },
     {
       "id": 4,
@@ -96,7 +96,7 @@
       "nom": "MAC-10",
       "categorie": "mitraillette",
       "description": "Mitraillette des terroristes connue pour sa cadence de tir élevée et son prix accessible.",
-      "img": "img/weapon/mac-10.webp"
+      "img": "img/weapon/mac10.webp"
     },
     {
       "id": 15,

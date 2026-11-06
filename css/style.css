@@ -1,0 +1,264 @@
+
+/* --------------------------------------------------
+   Auteurs : Marvin rdrgs & Lukas gvt
+   Date : 06.11.2026
+   Description : CSS du site CS2 Weapons
+-------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #17191d;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    min-height: 130px;
+    background-color: #202329;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 40px;
+    border-bottom: 3px solid #e89b32;
+}
+
+.logo {
+    width: 200px;
+    object-fit: contain;
+    border-radius: 2vh;
+}
+
+header h1 {
+    font-size: 38px;
+    color: #e89b32;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+}
+
+.nav-bar-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-bar-link:hover {
+    color: #e89b32;
+}
+
+
+main {
+    width: 90%;
+    max-width: 1500px;
+    margin: 40px auto;
+    flex: 1;
+}
+
+.barre-recherche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 45px;
+}
+
+.barre-recherche h2 {
+    font-size: 32px;
+    color: #e89b32;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.recherche {
+    display: flex;
+    width: 450px;
+    max-width: 100%;
+    height: 45px;
+}
+
+.search {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #444950;
+    border-radius: 6px 0 0 6px;
+    background-color: #292d34;
+    color: white;
+    outline: none;
+    font-size: 16px;
+}
+
+.search:focus {
+    border-color: #e89b32;
+}
+
+.recherche input[type="submit"] {
+    width: 55px;
+    border: none;
+    background-color: #e89b32;
+    color: #17191d;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 0 6px 6px 0;
+    transition: 0.3s;
+}
+
+.recherche input[type="submit"]:hover {
+    background-color: #ffb84d;
+}
+
+
+#categorie {
+    width: 250px;
+    padding: 12px;
+    background-color: #292d34;
+    color: white;
+    border: 1px solid #444950;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+#categorie:focus {
+    border-color: #e89b32;
+}
+
+
+.etiquette {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+}
+
+
+.section-div {
+    background-color: #22262c;
+    border: 1px solid #353a42;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.section-div:hover {
+    transform: translateY(-7px);
+    border-color: #e89b32;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+
+.affiche {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.section-div:hover .affiche {
+    transform: scale(1.08);
+}
+
+
+.section-div h3 {
+    color: #ffffff;
+    font-size: 21px;
+    margin: 15px 0 10px;
+}
+
+
+.categorie {
+    display: inline-block;
+    background-color: #e89b32;
+    color: #17191d;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+
+
+.description {
+    color: #b5bac2;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 8px;
+}
+
+
+.section-div a {
+    text-decoration: none;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #202329;
+    border-top: 2px solid #e89b32;
+    color: #858b94;
+    text-align: center;
+    padding: 25px;
+    line-height: 1.8;
+    margin-top: auto;
+}
+@media screen and (max-width: 900px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .barre-recherche h2 {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .recherche {
+        width: 100%;
+    }
+
+    main {
+        width: 94%;
+    }
+
+}
