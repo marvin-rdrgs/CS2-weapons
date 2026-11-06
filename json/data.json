@@ -5,189 +5,189 @@
       "nom": "AK-47",
       "categorie": "fusil",
       "description": "Fusil emblématique utilisé par les terroristes. Il est connu pour sa puissance et sa grande capacité de pénétration.",
-      "img": "../img/weapon/ak-47.png"
+      "img": "../img/weapon/ak-47.webp"
     },
     {
       "id": 2,
       "nom": "M4A4",
       "categorie": "fusil",
       "description": "Fusil d'assaut des antiterroristes offrant une bonne cadence de tir et une précision appréciable.",
-      "img": "../img/weapon/m4a4.png"
+      "img": "../img/weapon/m4a4.webp"
     },
     {
       "id": 3,
       "nom": "M4A1-S",
       "categorie": "fusil",
       "description": "Fusil d'assaut des antiterroristes équipé d'un silencieux. Il se distingue par son faible bruit et son contrôle.",
-      "img": "../img/weapon/m4a1-s.png"
+      "img": "../img/weapon/m4a1-s.webp"
     },
     {
       "id": 4,
       "nom": "AWP",
       "categorie": "sniper",
       "description": "Fusil de précision extrêmement puissant, capable d'éliminer un adversaire avec un tir bien placé.",
-      "img": "../img/weapon/awp.png"
+      "img": "../img/weapon/awp.webp"
     },
     {
       "id": 5,
       "nom": "SSG 08",
       "categorie": "sniper",
       "description": "Fusil de précision léger permettant de se déplacer rapidement tout en conservant une bonne précision.",
-      "img": "../img/weapon/ssg-08.png"
+      "img": "../img/weapon/ssg-08.webp"
     },
     {
       "id": 6,
       "nom": "Desert Eagle",
       "categorie": "pistolet",
       "description": "Pistolet semi-automatique réputé pour sa puissance élevée et sa grande précision lorsqu'il est maîtrisé.",
-      "img": "../img/weapon/desert-eagle.png"
+      "img": "../img/weapon/desert-eagle.webp"
     },
     {
       "id": 7,
       "nom": "Glock-18",
       "categorie": "pistolet",
       "description": "Pistolet de départ des terroristes disposant d'un mode de tir semi-automatique et d'un mode rafale.",
-      "img": "../img/weapon/glock-18.png"
+      "img": "../img/weapon/glock-18.webp"
     },
     {
       "id": 8,
       "nom": "USP-S",
       "categorie": "pistolet",
       "description": "Pistolet de départ des antiterroristes équipé d'un silencieux et offrant une bonne précision.",
-      "img": "../img/weapon/usp-s.png"
+      "img": "../img/weapon/usp-s.webp"
     },
     {
       "id": 9,
       "nom": "P250",
       "categorie": "pistolet",
       "description": "Pistolet semi-automatique économique offrant un bon compromis entre puissance et précision.",
-      "img": "../img/weapon/p250.png"
+      "img": "../img/weapon/p250.webp"
     },
     {
       "id": 10,
       "nom": "Five-SeveN",
       "categorie": "pistolet",
       "description": "Pistolet des antiterroristes possédant un chargeur important et une bonne capacité de pénétration.",
-      "img": "../img/weapon/five-seven.png"
+      "img": "../img/weapon/five-seven.webp"
     },
     {
       "id": 11,
       "nom": "Tec-9",
       "categorie": "pistolet",
       "description": "Pistolet des terroristes caractérisé par une cadence de tir élevée et un chargeur généreux.",
-      "img": "../img/weapon/tec-9.png"
+      "img": "../img/weapon/tec-9.webp"
     },
     {
       "id": 12,
       "nom": "P2000",
       "categorie": "pistolet",
       "description": "Pistolet de départ alternatif des antiterroristes, polyvalent et doté d'une bonne précision.",
-      "img": "../img/weapon/p2000.png"
+      "img": "../img/weapon/p2000.webp"
     },
     {
       "id": 13,
       "nom": "MP9",
       "categorie": "mitraillette",
       "description": "Mitraillette légère des antiterroristes offrant une cadence de tir rapide et une bonne mobilité.",
-      "img": "../img/weapon/mp9.png"
+      "img": "../img/weapon/mp9.webp"
     },
     {
       "id": 14,
       "nom": "MAC-10",
       "categorie": "mitraillette",
       "description": "Mitraillette des terroristes connue pour sa cadence de tir élevée et son prix accessible.",
-      "img": "../img/weapon/mac-10.png"
+      "img": "../img/weapon/mac-10.webp"
     },
     {
       "id": 15,
       "nom": "UMP-45",
       "categorie": "mitraillette",
       "description": "Mitraillette polyvalente offrant une puissance appréciable et une cadence de tir modérée.",
-      "img": "../img/weapon/ump-45.png"
+      "img": "../img/weapon/ump-45.webp"
     },
     {
       "id": 16,
       "nom": "P90",
       "categorie": "mitraillette",
       "description": "Mitraillette équipée d'un grand chargeur, permettant de tirer pendant une durée prolongée.",
-      "img": "../img/weapon/p90.png"
+      "img": "../img/weapon/p90.webp"
     },
     {
       "id": 17,
       "nom": "PP-Bizon",
       "categorie": "mitraillette",
       "description": "Mitraillette reconnaissable à son chargeur de grande capacité, adaptée aux tirs prolongés.",
-      "img": "../img/weapon/pp-bizon.png"
+      "img": "../img/weapon/pp-bizon.webp"
     },
     {
       "id": 18,
       "nom": "FAMAS",
       "categorie": "fusil",
       "description": "Fusil d'assaut des antiterroristes proposant un mode de tir automatique et un mode rafale.",
-      "img": "../img/weapon/famas.png"
+      "img": "../img/weapon/famas.webp"
     },
     {
       "id": 19,
       "nom": "Galil AR",
       "categorie": "fusil",
       "description": "Fusil d'assaut économique des terroristes offrant une bonne capacité de munitions.",
-      "img": "../img/weapon/galil-ar.png"
+      "img": "../img/weapon/galil-ar.webp"
     },
     {
       "id": 20,
       "nom": "AUG",
       "categorie": "fusil",
       "description": "Fusil d'assaut des antiterroristes équipé d'une lunette permettant une visée plus précise.",
-      "img": "../img/weapon/aug.png"
+      "img": "../img/weapon/aug.webp"
     },
     {
       "id": 21,
       "nom": "SG 553",
       "categorie": "fusil",
       "description": "Fusil d'assaut des terroristes équipé d'une lunette et conçu pour offrir une bonne précision.",
-      "img": "../img/weapon/sg-553.png"
+      "img": "../img/weapon/sg-553.webp"
     },
     {
       "id": 22,
       "nom": "Nova",
       "categorie": "fusil-a-pompe",
       "description": "Fusil à pompe économique disponible pour les deux équipes, particulièrement adapté aux combats rapprochés.",
-      "img": "../img/weapon/nova.png"
+      "img": "../img/weapon/nova.webp"
     },
     {
       "id": 23,
       "nom": "XM1014",
       "categorie": "fusil-a-pompe",
       "description": "Fusil à pompe semi-automatique permettant d'enchaîner rapidement plusieurs tirs.",
-      "img": "../img/weapon/xm1014.png"
+      "img": "../img/weapon/xm1014.webp"
     },
     {
       "id": 24,
       "nom": "MAG-7",
       "categorie": "fusil-a-pompe",
       "description": "Fusil à pompe disponible pour les antiterroristes, apprécié pour sa puissance à courte portée.",
-      "img": "../img/weapon/mag-7.png"
+      "img": "../img/weapon/mag-7.webp"
     },
     {
       "id": 25,
       "nom": "Sawed-Off",
       "categorie": "fusil-a-pompe",
       "description": "Fusil à pompe des terroristes offrant une puissance importante à courte distance.",
-      "img": "../img/weapon/sawed-off.png"
+      "img": "../img/weapon/sawed-off.webp"
     },
     {
       "id": 26,
       "nom": "M249",
       "categorie": "mitrailleuse",
       "description": "Mitrailleuse lourde disposant d'un grand chargeur et d'une capacité de tir soutenu.",
-      "img": "../img/weapon/m249.png"
+      "img": "../img/weapon/m249.webp"
     },
     {
       "id": 27,
       "nom": "Negev",
       "categorie": "mitrailleuse",
       "description": "Mitrailleuse lourde équipée d'un très grand chargeur, conçue pour maintenir un tir prolongé.",
-      "img": "../img/weapon/negev.png"
+      "img": "../img/weapon/negev.webp"
     }
   ]
 }
